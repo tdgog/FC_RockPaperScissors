@@ -13,6 +13,7 @@ module.exports = {
         scissors: 'linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%))',
         paper: 'linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%))',
         rock: 'linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%))',
+        triangle: 'url("/public/images/bg-triangle.svg")'
       },
       colors: {
         dark: 'hsl(229, 25%, 31%)',
@@ -23,7 +24,10 @@ module.exports = {
         'scissors-shadow': '#c76c1b',
         'paper-shadow': '#2845bf',
         'rock-shadow': '#9e1430'
-      }
+      },
+      backgroundSize: {
+        triangle: '50%'
+      },
     },
   },
   plugins: [],
